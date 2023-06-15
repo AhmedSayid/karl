@@ -25,6 +25,10 @@ body {
     align-content: center;
     align-items: center;
     }
+    .box-form .left{
+        display: none;
+    }
+
     }
     .box-form div {
     height: auto;
@@ -79,6 +83,14 @@ body {
     .box-form .right {
     width: 100%;
     }
+    .box-form .right {
+        width: 100%;
+        padding: 40px;
+        overflow: hidden;
+        height: 450px;
+        width: 450px;
+        
+        }
     }
     .box-form .right h5 {
     font-size: 6vmax;
