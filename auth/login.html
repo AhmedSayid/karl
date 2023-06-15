@@ -14,7 +14,7 @@
     <div class="container">
         <div class="d-flex justify-content-center " style="height: 100vh; align-items: center;">
 
-            <div class="box-form d-flex justify-content ">
+            <div class="box-form ">
                 <div class="left">
                     <div class="overlay">
                         <h1>Hello World.</h1>
@@ -23,32 +23,37 @@
 
                     </div>
                 </div>
-                <div class="d-flex justify-content-center" style="flex-direction: column;">
-                    
-                    <center>
-                    <div class=" right mt-4" >
-                        <h5 class="">Login</h5>
-                    
-                        <div class=" mt-4 inputs">
-                    <input type="text" placeholder="user name">
-                    <br>
-                    <input type="password" placeholder="password">
-                </div>
 
+
+                <center class="mt-3">
                 
-                <br>
-                <button onclick="Index()">Login</button>
+                    <div class=" right d-flex justify-content-center align-items-center  flex-column  ">
+                        <h5 class="">Login</h5>
+                        <p><br></p>
+                        <div class="  inputs w-100">
+                            <input type="text" placeholder="user name">
+                            <br>
+                     <br>
+                            <input type="password" placeholder="password">
+                        </div>
+
+
+                        <div class=" w-100 d-flex justify-content-end">
+                        <br>
+
+                            <button class="mt-5" onclick="Index()">Login</button>
+                        </div>
+                    </div>
+                </center>
+
             </div>
-        </center>
         </div>
     </div>
-    </div>
-    </div>
-<script>
-    function Index(){
-        location.href='../index.html'
-    }
-</script>
+    <script>
+        function Index() {
+            location.href = '../index.html'
+        }
+    </script>
 </body>
 
 </html>
